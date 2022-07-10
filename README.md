@@ -1,13 +1,15 @@
-# EpicGames 自动白嫖每周免费游戏
+# EpicGames 自動白嫖每周免費遊戲
 ![image](https://user-images.githubusercontent.com/4411977/74479432-6a6d1b00-4eaf-11ea-930f-1b89e7135887.png)
 
-## 使用过程
-0. 先给这个仓库来个Star（笑
-1. 下载[DeviceAuthGenerator](https://github.com/xMistt/DeviceAuthGenerator/releases/)
-2. 运行程序,在出现的页面里登录Epic账户,然后授权。完成后会出现一个 `device_auths.json`文件
-3. Fork或者手动导入这个Repo,看你喜好(防止被Github一锅端)
-4. 启用Actions,新建一个叫做`AUTH_JSON`的Secret,并将之前的`device_auths.json`文件内容粘贴进去。
-5. 修改.github/workflows/claim.yml文件,改改自动领取时间什么的。
+## 使用教程
+1. 下載[DeviceAuthGenerator](https://github.com/xMistt/DeviceAuthGenerator/releases/)
+2. 啟動DeviceAuthGenerator，在開啟的瀏覽器視窗中登入Epic Games帳號並進行授權。完成後會在該資料夾生成"device_auths.json"的檔案
+3. Fork或者手動導入這個Repository，看你喜好
+4. 啟用Actions，創建一個叫做"AUTH_JSON"的Secret，並將之前的"device_auths.json"檔案内容貼上
+5. 修改.github/workflows/claim.yml檔案，視自己的需求更動裡面的設置，例如修改自動領取時間之類的
 
-# 致谢
-感谢Revadike大佬的[epicgames-freebies-claimer](https://github.com/Revadike/epicgames-freebies-claimer),本Repo是在他程序的基础上修改而来的。
+## DeviceAuthGenerator相關附註
+該程式是以python撰寫的，在啟動前請先以其終端取得所需的模組
+
+## 致謝
+感謝Revadike大佬的[epicgames-freebies-claimer](https://github.com/Revadike/epicgames-freebies-claimer),本Repository是在他設計的基礎上修改而来的
