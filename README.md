@@ -9,7 +9,7 @@
 5. 修改.github/workflows/claim.yml檔案，視自己的需求更動裡面的設置，例如修改自動領取時間之類的
 
 ## DeviceAuthGenerator相關附註
-該程式是以python撰寫的，在啟動前請先以其終端取得所需的模組
+若對於其exe檔有安全疑慮的話也可以把他的程式下載下來以python自行檢查執行
 
 ## 致謝
 感謝Revadike大佬的[epicgames-freebies-claimer](https://github.com/Revadike/epicgames-freebies-claimer),本Repository是在他設計的基礎上修改而来的
